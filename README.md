@@ -13,6 +13,7 @@ bool sort_col(const vector<int>& v1, const vector<int>& v2)
 }
 
   //Part -1 Generating an array with no between 1 to 100
+					       
   vector<vector<int>> ARRAY_GENERATOR( int rows ,int col ) 
   {
        vector<vector<int>> ARR(rows,vector<int>(col,0));
@@ -32,7 +33,8 @@ bool sort_col(const vector<int>& v1, const vector<int>& v2)
   }
   
   
-   //Part 2 - Sorting a particular colum
+   //Part 2 - Sorting a particular column
+	
   vector<vector<int>> ARRAY_SORTER( vector<vector<int>> ARR, int col_sort)
    {
        
