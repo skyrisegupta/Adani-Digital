@@ -48,13 +48,10 @@ bool sort_col(const vector<int>& v1, const vector<int>& v2)
        
       return ARR; 
    }
+	
 int main()
 {
-    //Input
-    // rows for no of rows in 2-D Array
-    // col for no of columns in 2-D Array
-    // col_sort is the column no to be sorted 
-    
+  
     cout<<"Enter number of rows=";
     cin>>rows;
 
