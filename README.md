@@ -16,6 +16,7 @@ bool sort_col(const vector<int>& v1, const vector<int>& v2)
 					       
   vector<vector<int>> ARRAY_GENERATOR( int rows ,int col ) 
   {
+	
        vector<vector<int>> ARR(rows,vector<int>(col,0));
 
     for (int i=0; i<rows; i++)
